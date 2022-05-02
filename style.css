@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(235, 143, 38);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+svg {
+    background-color: wheat;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.bar {
+    background-color: brown;
+    border-color: red;
+    fill: rgb(119, 0, 0);
+}
+
+.bar:hover {
+    fill: rgb(51, 4, 4));
+}
+
+g {
+    color: rgb(219, 30, 30));
+}
+
+#tooltip {
+    margin-top: 10px;
+    color: azure;
+    font-size: 25px;
+}
+
+#title {
+    font-size: 29px;
+    fill: rgb(235, 120, 120);
+}
